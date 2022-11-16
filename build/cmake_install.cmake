@@ -1,4 +1,4 @@
-# Install script for directory: /home/wanluanlee/Documents/PA2
+# Install script for directory: /home/wanluanlee/Documents/floorplanner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/wanluanlee/Documents/PA2/build/sp/cmake_install.cmake")
+  include("/home/wanluanlee/Documents/floorplanner/build/sp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/wanluanlee/Documents/PA2/build/main/cmake_install.cmake")
+  include("/home/wanluanlee/Documents/floorplanner/build/main/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wanluanlee/Documents/PA2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wanluanlee/Documents/floorplanner/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

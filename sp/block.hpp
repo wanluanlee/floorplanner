@@ -9,25 +9,25 @@
 #include "string"
 
 namespace sqp {
-    class Block {
-    public:
-        Block(std::string name, int id, int width, int height);
-        std::string get_name();
-        void switch_width_hight();
-        int get_width();
-        int get_height();
-        int get_id();
-        void set_width(int witdh);
-        void set_height(int height);
-        int x_slack = 0;
-        int y_slack = 0;
+  class Block {
+  public:
+    Block(std::string name, int id, int width, int height);
+    std::string get_name();
+    void switch_width_hight();
+    int get_width();
+    int get_height();
+    int get_id();
+    void set_width(int witdh);
+    void set_height(int height);
+    int x_slack = 0;
+    int y_slack = 0;
 
-    private:
-        int _id;
-        std::string _name;
-        int _width = 0;
-        int _height = 0;
-    };
+  private:
+    int _id;
+    std::string _name;
+    int _width = 0;
+    int _height = 0;
+  };
 }
 
 

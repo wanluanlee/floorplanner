@@ -1,7 +1,8 @@
 sp/CMakeFiles/sp.dir/terminal.cpp.o: \
- /home/wanluanlee/Documents/PA2/sp/terminal.cpp \
+ /home/wanluanlee/Documents/floorplanner/sp/terminal.cpp \
  /usr/include/stdc-predef.h \
- /home/wanluanlee/Documents/PA2/sp/terminal.hpp /usr/include/c++/8/string \
+ /home/wanluanlee/Documents/floorplanner/sp/terminal.hpp \
+ /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \

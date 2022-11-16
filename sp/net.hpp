@@ -10,20 +10,19 @@
 #include "terminal.hpp"
 
 namespace sqp {
-    class net {
-    public:
-        net(const int id, int _num_degree);
-        void insert_block(Block* block);
-        void insert_terminal(Terminal* term);
-        std::vector<Block*> get_connected_block();
-        std::vector<Terminal*> get_connected_terminal();
-    private:
-        const int _id;
-        int _num_degree = 0;
-        std::vector<Block*> _connected_block = {};
-        std::vector<Terminal*> _connected_terminal = {};
-
-    };
+  class net {
+  public:
+    net(const int id, int _num_degree);
+    void insert_block(Block* block);
+    void insert_terminal(Terminal* term);
+    std::vector<Block*> get_connected_block();
+    std::vector<Terminal*> get_connected_terminal();
+  private:
+    const int _id;
+    int _num_degree = 0;
+    std::vector<Block*> _connected_block = {};
+    std::vector<Terminal*> _connected_terminal = {};
+  };
 }
 
 

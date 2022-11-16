@@ -1,4 +1,4 @@
-# Install script for directory: /home/wanluanlee/Documents/PA2/sp
+# Install script for directory: /home/wanluanlee/Documents/floorplanner/sp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wanluanlee/Documents/PA2
+CMAKE_SOURCE_DIR = /home/wanluanlee/Documents/floorplanner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wanluanlee/Documents/PA2/build
+CMAKE_BINARY_DIR = /home/wanluanlee/Documents/floorplanner/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/floorplanner.dir/depend.make
@@ -75,86 +75,86 @@ include CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/main/main.cpp.o: CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/main/main.cpp.o: ../main/main.cpp
 CMakeFiles/floorplanner.dir/main/main.cpp.o: CMakeFiles/floorplanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/floorplanner.dir/main/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/main/main.cpp.o -MF CMakeFiles/floorplanner.dir/main/main.cpp.o.d -o CMakeFiles/floorplanner.dir/main/main.cpp.o -c /home/wanluanlee/Documents/PA2/main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/floorplanner.dir/main/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/main/main.cpp.o -MF CMakeFiles/floorplanner.dir/main/main.cpp.o.d -o CMakeFiles/floorplanner.dir/main/main.cpp.o -c /home/wanluanlee/Documents/floorplanner/main/main.cpp
 
 CMakeFiles/floorplanner.dir/main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/floorplanner.dir/main/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/PA2/main/main.cpp > CMakeFiles/floorplanner.dir/main/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/floorplanner/main/main.cpp > CMakeFiles/floorplanner.dir/main/main.cpp.i
 
 CMakeFiles/floorplanner.dir/main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/floorplanner.dir/main/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/PA2/main/main.cpp -o CMakeFiles/floorplanner.dir/main/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/floorplanner/main/main.cpp -o CMakeFiles/floorplanner.dir/main/main.cpp.s
 
 CMakeFiles/floorplanner.dir/sp/block.cpp.o: CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/sp/block.cpp.o: ../sp/block.cpp
 CMakeFiles/floorplanner.dir/sp/block.cpp.o: CMakeFiles/floorplanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/floorplanner.dir/sp/block.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/block.cpp.o -MF CMakeFiles/floorplanner.dir/sp/block.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/block.cpp.o -c /home/wanluanlee/Documents/PA2/sp/block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/floorplanner.dir/sp/block.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/block.cpp.o -MF CMakeFiles/floorplanner.dir/sp/block.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/block.cpp.o -c /home/wanluanlee/Documents/floorplanner/sp/block.cpp
 
 CMakeFiles/floorplanner.dir/sp/block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/floorplanner.dir/sp/block.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/PA2/sp/block.cpp > CMakeFiles/floorplanner.dir/sp/block.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/floorplanner/sp/block.cpp > CMakeFiles/floorplanner.dir/sp/block.cpp.i
 
 CMakeFiles/floorplanner.dir/sp/block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/floorplanner.dir/sp/block.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/PA2/sp/block.cpp -o CMakeFiles/floorplanner.dir/sp/block.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/floorplanner/sp/block.cpp -o CMakeFiles/floorplanner.dir/sp/block.cpp.s
 
 CMakeFiles/floorplanner.dir/sp/net.cpp.o: CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/sp/net.cpp.o: ../sp/net.cpp
 CMakeFiles/floorplanner.dir/sp/net.cpp.o: CMakeFiles/floorplanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/floorplanner.dir/sp/net.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/net.cpp.o -MF CMakeFiles/floorplanner.dir/sp/net.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/net.cpp.o -c /home/wanluanlee/Documents/PA2/sp/net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/floorplanner.dir/sp/net.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/net.cpp.o -MF CMakeFiles/floorplanner.dir/sp/net.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/net.cpp.o -c /home/wanluanlee/Documents/floorplanner/sp/net.cpp
 
 CMakeFiles/floorplanner.dir/sp/net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/floorplanner.dir/sp/net.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/PA2/sp/net.cpp > CMakeFiles/floorplanner.dir/sp/net.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/floorplanner/sp/net.cpp > CMakeFiles/floorplanner.dir/sp/net.cpp.i
 
 CMakeFiles/floorplanner.dir/sp/net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/floorplanner.dir/sp/net.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/PA2/sp/net.cpp -o CMakeFiles/floorplanner.dir/sp/net.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/floorplanner/sp/net.cpp -o CMakeFiles/floorplanner.dir/sp/net.cpp.s
 
 CMakeFiles/floorplanner.dir/sp/terminal.cpp.o: CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/sp/terminal.cpp.o: ../sp/terminal.cpp
 CMakeFiles/floorplanner.dir/sp/terminal.cpp.o: CMakeFiles/floorplanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/floorplanner.dir/sp/terminal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/terminal.cpp.o -MF CMakeFiles/floorplanner.dir/sp/terminal.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/terminal.cpp.o -c /home/wanluanlee/Documents/PA2/sp/terminal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/floorplanner.dir/sp/terminal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/terminal.cpp.o -MF CMakeFiles/floorplanner.dir/sp/terminal.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/terminal.cpp.o -c /home/wanluanlee/Documents/floorplanner/sp/terminal.cpp
 
 CMakeFiles/floorplanner.dir/sp/terminal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/floorplanner.dir/sp/terminal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/PA2/sp/terminal.cpp > CMakeFiles/floorplanner.dir/sp/terminal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/floorplanner/sp/terminal.cpp > CMakeFiles/floorplanner.dir/sp/terminal.cpp.i
 
 CMakeFiles/floorplanner.dir/sp/terminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/floorplanner.dir/sp/terminal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/PA2/sp/terminal.cpp -o CMakeFiles/floorplanner.dir/sp/terminal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/floorplanner/sp/terminal.cpp -o CMakeFiles/floorplanner.dir/sp/terminal.cpp.s
 
 CMakeFiles/floorplanner.dir/sp/circuit.cpp.o: CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/sp/circuit.cpp.o: ../sp/circuit.cpp
 CMakeFiles/floorplanner.dir/sp/circuit.cpp.o: CMakeFiles/floorplanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/floorplanner.dir/sp/circuit.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/circuit.cpp.o -MF CMakeFiles/floorplanner.dir/sp/circuit.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/circuit.cpp.o -c /home/wanluanlee/Documents/PA2/sp/circuit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/floorplanner.dir/sp/circuit.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/circuit.cpp.o -MF CMakeFiles/floorplanner.dir/sp/circuit.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/circuit.cpp.o -c /home/wanluanlee/Documents/floorplanner/sp/circuit.cpp
 
 CMakeFiles/floorplanner.dir/sp/circuit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/floorplanner.dir/sp/circuit.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/PA2/sp/circuit.cpp > CMakeFiles/floorplanner.dir/sp/circuit.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/floorplanner/sp/circuit.cpp > CMakeFiles/floorplanner.dir/sp/circuit.cpp.i
 
 CMakeFiles/floorplanner.dir/sp/circuit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/floorplanner.dir/sp/circuit.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/PA2/sp/circuit.cpp -o CMakeFiles/floorplanner.dir/sp/circuit.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/floorplanner/sp/circuit.cpp -o CMakeFiles/floorplanner.dir/sp/circuit.cpp.s
 
 CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o: CMakeFiles/floorplanner.dir/flags.make
 CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o: ../sp/sequence_pair.cpp
 CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o: CMakeFiles/floorplanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o -MF CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o -c /home/wanluanlee/Documents/PA2/sp/sequence_pair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o -MF CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o.d -o CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o -c /home/wanluanlee/Documents/floorplanner/sp/sequence_pair.cpp
 
 CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/PA2/sp/sequence_pair.cpp > CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanluanlee/Documents/floorplanner/sp/sequence_pair.cpp > CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.i
 
 CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/PA2/sp/sequence_pair.cpp -o CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanluanlee/Documents/floorplanner/sp/sequence_pair.cpp -o CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.s
 
 # Object files for target floorplanner
 floorplanner_OBJECTS = \
@@ -176,7 +176,7 @@ exec/floorplanner: CMakeFiles/floorplanner.dir/sp/circuit.cpp.o
 exec/floorplanner: CMakeFiles/floorplanner.dir/sp/sequence_pair.cpp.o
 exec/floorplanner: CMakeFiles/floorplanner.dir/build.make
 exec/floorplanner: CMakeFiles/floorplanner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wanluanlee/Documents/PA2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable exec/floorplanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wanluanlee/Documents/floorplanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable exec/floorplanner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/floorplanner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/floorplanner.dir/clean:
 .PHONY : CMakeFiles/floorplanner.dir/clean
 
 CMakeFiles/floorplanner.dir/depend:
-	cd /home/wanluanlee/Documents/PA2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wanluanlee/Documents/PA2 /home/wanluanlee/Documents/PA2 /home/wanluanlee/Documents/PA2/build /home/wanluanlee/Documents/PA2/build /home/wanluanlee/Documents/PA2/build/CMakeFiles/floorplanner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wanluanlee/Documents/floorplanner/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wanluanlee/Documents/floorplanner /home/wanluanlee/Documents/floorplanner /home/wanluanlee/Documents/floorplanner/build /home/wanluanlee/Documents/floorplanner/build /home/wanluanlee/Documents/floorplanner/build/CMakeFiles/floorplanner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/floorplanner.dir/depend
 

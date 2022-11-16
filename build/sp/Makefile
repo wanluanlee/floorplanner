@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wanluanlee/Documents/PA2
+CMAKE_SOURCE_DIR = /home/wanluanlee/Documents/floorplanner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wanluanlee/Documents/PA2/build
+CMAKE_BINARY_DIR = /home/wanluanlee/Documents/floorplanner/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wanluanlee/Documents/PA2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wanluanlee/Documents/PA2/build/CMakeFiles /home/wanluanlee/Documents/PA2/build/sp//CMakeFiles/progress.marks
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wanluanlee/Documents/PA2/build/CMakeFiles 0
+	cd /home/wanluanlee/Documents/floorplanner/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wanluanlee/Documents/floorplanner/build/CMakeFiles /home/wanluanlee/Documents/floorplanner/build/sp//CMakeFiles/progress.marks
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wanluanlee/Documents/floorplanner/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/clean
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/preinstall
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/preinstall
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wanluanlee/Documents/PA2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wanluanlee/Documents/floorplanner/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sp/CMakeFiles/sp.dir/rule:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/CMakeFiles/sp.dir/rule
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sp/CMakeFiles/sp.dir/rule
 .PHONY : sp/CMakeFiles/sp.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ sp: sp/CMakeFiles/sp.dir/rule
 
 # fast build rule for target.
 sp/fast:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/build
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/build
 .PHONY : sp/fast
 
 block.o: block.cpp.o
@@ -148,7 +148,7 @@ block.o: block.cpp.o
 
 # target to build an object file
 block.cpp.o:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/block.cpp.o
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/block.cpp.o
 .PHONY : block.cpp.o
 
 block.i: block.cpp.i
@@ -156,7 +156,7 @@ block.i: block.cpp.i
 
 # target to preprocess a source file
 block.cpp.i:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/block.cpp.i
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/block.cpp.i
 .PHONY : block.cpp.i
 
 block.s: block.cpp.s
@@ -164,7 +164,7 @@ block.s: block.cpp.s
 
 # target to generate assembly for a file
 block.cpp.s:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/block.cpp.s
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/block.cpp.s
 .PHONY : block.cpp.s
 
 circuit.o: circuit.cpp.o
@@ -172,7 +172,7 @@ circuit.o: circuit.cpp.o
 
 # target to build an object file
 circuit.cpp.o:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/circuit.cpp.o
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/circuit.cpp.o
 .PHONY : circuit.cpp.o
 
 circuit.i: circuit.cpp.i
@@ -180,7 +180,7 @@ circuit.i: circuit.cpp.i
 
 # target to preprocess a source file
 circuit.cpp.i:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/circuit.cpp.i
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/circuit.cpp.i
 .PHONY : circuit.cpp.i
 
 circuit.s: circuit.cpp.s
@@ -188,7 +188,7 @@ circuit.s: circuit.cpp.s
 
 # target to generate assembly for a file
 circuit.cpp.s:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/circuit.cpp.s
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/circuit.cpp.s
 .PHONY : circuit.cpp.s
 
 net.o: net.cpp.o
@@ -196,7 +196,7 @@ net.o: net.cpp.o
 
 # target to build an object file
 net.cpp.o:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/net.cpp.o
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/net.cpp.o
 .PHONY : net.cpp.o
 
 net.i: net.cpp.i
@@ -204,7 +204,7 @@ net.i: net.cpp.i
 
 # target to preprocess a source file
 net.cpp.i:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/net.cpp.i
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/net.cpp.i
 .PHONY : net.cpp.i
 
 net.s: net.cpp.s
@@ -212,7 +212,7 @@ net.s: net.cpp.s
 
 # target to generate assembly for a file
 net.cpp.s:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/net.cpp.s
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/net.cpp.s
 .PHONY : net.cpp.s
 
 sequence_pair.o: sequence_pair.cpp.o
@@ -220,7 +220,7 @@ sequence_pair.o: sequence_pair.cpp.o
 
 # target to build an object file
 sequence_pair.cpp.o:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/sequence_pair.cpp.o
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/sequence_pair.cpp.o
 .PHONY : sequence_pair.cpp.o
 
 sequence_pair.i: sequence_pair.cpp.i
@@ -228,7 +228,7 @@ sequence_pair.i: sequence_pair.cpp.i
 
 # target to preprocess a source file
 sequence_pair.cpp.i:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/sequence_pair.cpp.i
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/sequence_pair.cpp.i
 .PHONY : sequence_pair.cpp.i
 
 sequence_pair.s: sequence_pair.cpp.s
@@ -236,7 +236,7 @@ sequence_pair.s: sequence_pair.cpp.s
 
 # target to generate assembly for a file
 sequence_pair.cpp.s:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/sequence_pair.cpp.s
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/sequence_pair.cpp.s
 .PHONY : sequence_pair.cpp.s
 
 terminal.o: terminal.cpp.o
@@ -244,7 +244,7 @@ terminal.o: terminal.cpp.o
 
 # target to build an object file
 terminal.cpp.o:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/terminal.cpp.o
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/terminal.cpp.o
 .PHONY : terminal.cpp.o
 
 terminal.i: terminal.cpp.i
@@ -252,7 +252,7 @@ terminal.i: terminal.cpp.i
 
 # target to preprocess a source file
 terminal.cpp.i:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/terminal.cpp.i
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/terminal.cpp.i
 .PHONY : terminal.cpp.i
 
 terminal.s: terminal.cpp.s
@@ -260,7 +260,7 @@ terminal.s: terminal.cpp.s
 
 # target to generate assembly for a file
 terminal.cpp.s:
-	cd /home/wanluanlee/Documents/PA2/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/terminal.cpp.s
+	cd /home/wanluanlee/Documents/floorplanner/build && $(MAKE) $(MAKESILENT) -f sp/CMakeFiles/sp.dir/build.make sp/CMakeFiles/sp.dir/terminal.cpp.s
 .PHONY : terminal.cpp.s
 
 # Help Target
@@ -299,6 +299,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wanluanlee/Documents/PA2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wanluanlee/Documents/floorplanner/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

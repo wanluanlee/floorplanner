@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wanluanlee/Documents/PA2
+CXX_INCLUDES = -I/home/wanluanlee/Documents/floorplanner
 
 CXX_FLAGS = -O3 -Wall -Wextra -Wfatal-errors -std=gnu++17
 
