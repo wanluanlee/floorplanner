@@ -1,0 +1,15 @@
+Outline: 600 1200 
+NumBlocks: 5                                                                   
+NumTerminals: 3
+
+
+bk1 200  200
+bk2 600  600
+bk3 400  200
+bk4 400  400
+bk5 200  400
+
+
+VSS Terminal         1281	1463
+VDD Terminal         1687	0
+P9 Terminal          266	0

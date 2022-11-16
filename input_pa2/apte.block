@@ -1,0 +1,87 @@
+Outline: 9912 5262
+NumBlocks: 9
+NumTerminals: 73
+
+cc_11 	3146	1826
+cc_12 	3146	1826
+cc_13 	3146	1826
+cc_14 	3146	1826
+cc_21 	3186	1832
+cc_22 	3186	1832
+cc_23 	3186	1832
+cc_24 	3186	1832
+clk 		826 	286
+
+new0 Terminal     0	2500
+new1 Terminal     0	2900
+new2 Terminal     0	3300
+new3 Terminal     0	3700
+new4 Terminal     0	4100
+new5 Terminal     0	4500
+new6 Terminal     0	4900
+new7 Terminal     0	5300
+new8 Terminal     0	5700
+new10 Terminal    0	6100
+new11 Terminal    0	6500
+new12 Terminal    0	6900
+new14 Terminal    0	7300
+new15 Terminal    0	7700
+new16 Terminal    0	8100
+new17 Terminal    0	8500
+new18 Terminal    0	8900
+VSS Terminal      0	9300
+new19 Terminal    1700	0
+new20 Terminal    2100	0
+new21 Terminal    2500	0
+new22 Terminal    2900	0
+new28 Terminal    3300	0
+new29 Terminal    3700	0
+new30 Terminal    4100	0
+new31 Terminal    4500	0
+new32 Terminal    4900	0
+new33 Terminal    5300	0
+new39 Terminal    5700	0
+new40 Terminal    6100	0
+new41 Terminal    6500	0
+new42 Terminal    6900	0
+new43 Terminal    7300	0
+new44 Terminal    7700	0
+new46 Terminal    8100	0
+new50 Terminal    8500	0
+VDD Terminal      8900	0
+new51 Terminal    10500	2500
+new52 Terminal    10500	2900
+new54 Terminal    10500	3300
+new55 Terminal    10500	3700
+new56 Terminal    10500	4100
+new57 Terminal    10500	4500
+new58 Terminal    10500	4900
+new59 Terminal    10500	5300
+new60 Terminal    10500	5700
+new62 Terminal    10500	6100
+new63 Terminal    10500	6500
+new64 Terminal    10500	6900
+new65 Terminal    10500	7300
+new66 Terminal    10500	7700
+new67 Terminal    10500	8100
+new69 Terminal    10500	8500
+new70 Terminal    10500	8900
+GND Terminal      10500	9300
+new71 Terminal    1700	10500
+new72 Terminal    2100	10500
+new73 Terminal    2500	10500
+new74 Terminal    2900	10500
+new75 Terminal    3300	10500
+new76 Terminal    3700	10500
+new77 Terminal    4100	10500
+new78 Terminal    4500	10500
+new79 Terminal    4900	10500
+new80 Terminal    5300	10500
+new81 Terminal    5700	10500
+new82 Terminal    6100	10500
+new83 Terminal    6500	10500
+new84 Terminal    6900	10500
+new85 Terminal    7300	10500
+new86 Terminal    7700	10500
+Phi Terminal      8100	10500
+TestHS1 Terminal  8500	10500

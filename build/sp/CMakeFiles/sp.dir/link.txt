@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsp.a CMakeFiles/sp.dir/circuit.cpp.o CMakeFiles/sp.dir/block.cpp.o CMakeFiles/sp.dir/net.cpp.o CMakeFiles/sp.dir/terminal.cpp.o CMakeFiles/sp.dir/sequence_pair.cpp.o
+/usr/bin/ranlib libsp.a
